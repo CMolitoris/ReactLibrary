@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = (props) => {
     return ( 
         <div className="footer">
-            <p>&copy; 2021 Library App | {props.book.title}</p>
+            <p>Copyright &copy; 2021 Library App | {props.book.title}</p>
         </div>
      );
 }
